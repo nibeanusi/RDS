@@ -1,0 +1,27 @@
+x <- c(1,2,3) #list of numbers 1, 2 and 3
+y <- 5:15 #similar to statement above but 5-15 inclusive
+mean(x)
+?mean #what is the mean #brings up the help file
+x <- c(0:10, 50)
+xm <- mean(x)
+xm
+x
+x <- c(1, 3, 5, 7, 9)
+y <- c(15, 16, 17, 18, 19)
+plot(x,y)
+
+
+data(cars)#load data
+cars #prints out the cars dataset in the console--> 2 variables, 50 rows, 1st row spead, 2nd column is dist
+head(cars) #look the first couple of rows
+?View #ask for help for what View does
+View(cars) #get the dataset to appear in a different window
+names(cars) #get the column names of the dataset
+cars$speed #extract one column
+
+#Functions
+mean(c(1,2,3,4)) #get the mean #c means concatenate a list of numbers, like a vector
+sd(c(1,2,3,4,5)) #get the standard deviation 
+
+#install.packages("tidyverse") #load the packages
+library(tidyverse) #load the library
